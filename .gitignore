@@ -1,0 +1,6 @@
+*.local
+*.py[cod]
+.DS_Store
+dist
+dist-ssr
+node_modules
