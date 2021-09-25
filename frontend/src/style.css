@@ -16,3 +16,10 @@ html, body {
   overflow: hidden;
   user-select: none;
 }
+
+.swatch {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: .5em;
+}

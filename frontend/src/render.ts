@@ -1,6 +1,6 @@
 import { Image, Palette } from "./types";
 
-function colorTo8bitRGB(color: string | [number, number, number]): number[] {
+export function colorTo8bitRGB(color: string | [number, number, number]): number[] {
   return (typeof color === "string" ? [0xFF, 0, 0xFF] : color.map(s => Math.round(s * 255)));
 }
 
