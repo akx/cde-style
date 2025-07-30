@@ -4,7 +4,9 @@ export function pick<T>(arr: readonly T[]): T {
 
 export function shuffle<T>(array: readonly T[]): T[] {
   const newArray = [...array];
-  let m = array.length, t, i;
+  let m = array.length,
+    t,
+    i;
 
   // While there remain elements to shuffle…
   while (m) {

@@ -7,9 +7,12 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "prettier": "^2.4.1",
-    "quicktype": "^15.0.260",
-    "typescript": "^4.3.2",
-    "vite": "^2.5.4"
+    "prettier": "^3.6.2",
+    "quicktype": "^23.2.6",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.6"
+  },
+  "dependencies": {
+    "lit-html": "^3.3.1"
   }
 }
